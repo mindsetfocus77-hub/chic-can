@@ -135,14 +135,14 @@ section{position:relative}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* Marquee */
-.marquee{background:var(--ink);color:var(--cream);overflow:hidden;padding:16px 0;transform:rotate(-1.2deg);margin:10px -10px 0}
+.marquee{background:var(--ink);color:var(--cream);overflow:hidden;padding:16px 0}
 .marquee-track{display:flex;gap:42px;width:max-content;animation:slide 32s linear infinite;font-family:var(--display);font-style:italic;font-size:1.35rem;white-space:nowrap}
 .marquee-track span{display:inline-flex;align-items:center;gap:42px}
 .marquee-track span::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--rose)}
 @keyframes slide{to{transform:translateX(-50%)}}
 
 /* Services */
-.services{background:var(--paper);border-radius:var(--r-lg) var(--r-lg) 0 0;margin-top:-14px}
+.services{background:var(--paper)}
 .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .svc{background:var(--cream);border-radius:var(--r-md);overflow:hidden;display:flex;flex-direction:column;transition:transform .3s ease, box-shadow .3s ease;border:1px solid var(--line)}
 .svc:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
